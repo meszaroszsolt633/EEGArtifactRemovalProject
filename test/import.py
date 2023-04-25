@@ -39,7 +39,7 @@ def importdata(data):
 if __name__ == "__main__":
     datafile="S001R01.edf"
     rawdata,rawgetdata,info,channels=importdata(datafile)
-    #print(raw_data,info,channels)
+    print(rawdata,info,channels)
     #statistics(data,info)
     #plots(data)
     low_cut=1
